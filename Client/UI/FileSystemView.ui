@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FileSystemViewClass</class>
+ <widget class="QWidget" name="FileSystemViewClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>973</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FileSystemView</string>
+  </property>
+  <widget class="QStackedWidget" name="RootWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>772</width>
+     <height>474</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actupfile">
+   <property name="icon">
+    <iconset resource="DiskClient.qrc">
+     <normaloff>:/icon/icon/TranOpen.svg</normaloff>:/icon/icon/TranOpen.svg</iconset>
+   </property>
+   <property name="text">
+    <string>上传文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actdown">
+   <property name="icon">
+    <iconset resource="DiskClient.qrc">
+     <normaloff>:/icon/icon/downIcon.svg</normaloff>:/icon/icon/downIcon.svg</iconset>
+   </property>
+   <property name="text">
+    <string>下载文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actdelete">
+   <property name="icon">
+    <iconset resource="DiskClient.qrc">
+     <normaloff>:/icon/icon/deleteIcon.svg</normaloff>:/icon/icon/deleteIcon.svg</iconset>
+   </property>
+   <property name="text">
+    <string>删除文件</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actback">
+   <property name="icon">
+    <iconset resource="DiskClient.qrc">
+     <normaloff>:/icon/icon/bcakIcon.svg</normaloff>:/icon/icon/bcakIcon.svg</iconset>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actRefresh">
+   <property name="icon">
+    <iconset resource="DiskClient.qrc">
+     <normaloff>:/icon/icon/refreshIcon.svg</normaloff>:/icon/icon/refreshIcon.svg</iconset>
+   </property>
+   <property name="text">
+    <string>刷新视图</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actcreateDir">
+   <property name="icon">
+    <iconset resource="DiskClient.qrc">
+     <normaloff>:/icon/icon/createDir.svg</normaloff>:/icon/icon/createDir.svg</iconset>
+   </property>
+   <property name="text">
+    <string>创建文件夹</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="DiskClient.qrc"/>
+ </resources>
+ <connections/>
+</ui>

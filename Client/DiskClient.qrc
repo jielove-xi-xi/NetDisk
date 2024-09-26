@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/DiskClient"/>
+    <qresource prefix="/icon">
+        <file>icon/FileWidget.svg</file>
+        <file>icon/TranEnd.svg</file>
+        <file>icon/TranOpen.svg</file>
+        <file>icon/TranStart.svg</file>
+        <file>icon/TranStop.svg</file>
+        <file>icon/TranWidget.svg</file>
+        <file>icon/UserInfo.svg</file>
+        <file>icon/xx.svg</file>
+        <file>icon/dirIcon.svg</file>
+        <file>icon/MP4Icon.svg</file>
+        <file>icon/pitureIcon.svg</file>
+        <file>icon/txtIcon.svg</file>
+        <file>icon/mp3Icon.svg</file>
+        <file>icon/otherIcon.svg</file>
+        <file>icon/downIcon.svg</file>
+        <file>icon/deleteIcon.svg</file>
+        <file>icon/bcakIcon.svg</file>
+        <file>icon/refreshIcon.svg</file>
+        <file>icon/createDir.svg</file>
+        <file>icon/login.JPG</file>
+    </qresource>
+</RCC>

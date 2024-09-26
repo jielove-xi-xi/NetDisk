@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiskClient", "DiskClient.vcxproj", "{E11C1AD1-1EAF-46E2-ACF8-1C11564A8F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E11C1AD1-1EAF-46E2-ACF8-1C11564A8F5A}.Debug|x64.ActiveCfg = Debug|x64
+		{E11C1AD1-1EAF-46E2-ACF8-1C11564A8F5A}.Debug|x64.Build.0 = Debug|x64
+		{E11C1AD1-1EAF-46E2-ACF8-1C11564A8F5A}.Release|x64.ActiveCfg = Release|x64
+		{E11C1AD1-1EAF-46E2-ACF8-1C11564A8F5A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8193B6C9-0C45-4B71-8BF4-ACAD812765C0}
+	EndGlobalSection
+EndGlobal

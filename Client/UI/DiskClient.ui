@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiskClientClass</class>
+ <widget class="QMainWindow" name="DiskClientClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1383</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DiskClient</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton {
+    border: none; /* 去掉边框 */
+    border-radius: 35px; /* 将按钮变为原型，半径设置为宽度或高度的一半 */
+    background-color: transparent; /* 背景透明 */
+    width: 70px; /* 设置按钮的宽度 */
+    height: 70px; /* 设置按钮的高度 */
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">QStackedWidget{ border-left: 1px solid; }</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时，添加背景色 */
+    border-radius: 35px; /* 增加圆角半径，使其比图标更大 */
+    padding: 5px; /* 确保图标居中 */
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.2); /* 鼠标按下时，加深背景色 */
+    border-radius: 35px; /* 增加圆角半径，使其比图标更大 */
+    padding: 5px; /* 确保图标居中 */
+}
+
+
+</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="btnFile">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="DiskClient.qrc">
+             <normaloff>:/icon/icon/FileWidget.svg</normaloff>:/icon/icon/FileWidget.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>75</width>
+             <height>70</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>文件</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="btnTran">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="DiskClient.qrc">
+             <normaloff>:/icon/icon/TranWidget.svg</normaloff>:/icon/icon/TranWidget.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>传输</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_6"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>334</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QPushButton" name="BtnInfo">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="DiskClient.qrc">
+             <normaloff>:/icon/icon/UserInfo.svg</normaloff>:/icon/icon/UserInfo.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>个人信息</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时，添加背景色 */
+    border-radius: 35px; /* 增加圆角半径，使其比图标更大 */
+    padding: 5px; /* 确保图标居中 */
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 0.2); /* 鼠标按下时，加深背景色 */
+    border-radius: 35px; /* 增加圆角半径，使其比图标更大 */
+    padding: 5px; /* 确保图标居中 */
+}</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="one">
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QStackedWidget" name="FileView"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="two">
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+          <widget class="QWidget" name="TranContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>98</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <layout class="QVBoxLayout" name="TranList">
+              <property name="spacing">
+               <number>2</number>
+              </property>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="DiskClient.qrc"/>
+ </resources>
+ <connections/>
+</ui>
