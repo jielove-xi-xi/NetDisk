@@ -44,7 +44,10 @@
 5、实现文件系统视图，可以进行层级化查看文件
 
 6、界面与逻辑分离
-
+![Image text](Image/main.JPG)
+![Image text](Image/login.JPG)
+![Image text](Image/upload.JPG)
+![Image text](Image/userinfo.JPG)
 # 二、快速搭建
 
 ## （一）服务器
