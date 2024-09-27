@@ -13,8 +13,7 @@ DiskClient::~DiskClient()
 {
     delete ui;
     if (m_srTool->getSsl()->lowest_layer().is_open())
-        m_srTool->getSsl()->shutdown();
-    m_srTool->getSsl()->lowest_layer().close();
+        m_srTool->getSsl()->lowest_layer().close();
 }
 
 //开始客户端，进行登陆或者注册
